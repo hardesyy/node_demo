@@ -1,0 +1,7 @@
+const express = require('express')
+const route = require('./routes/route')
+const app = express()
+app.use('/public',express.static('./public'))
+app.set('view engine','ejs')
+app.get('/',route.showIndex)
+app.listen(80)

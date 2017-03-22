@@ -1,0 +1,39 @@
+{
+  "name": "node_demo",
+  "version": "1.0.0",
+  "description": "node_demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hardesyy/node_demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hardesyy/node_demo/issues"
+  },
+  "homepage": "https://github.com/hardesyy/node_demo#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "browser-sync": "^2.18.5",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-less": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglifycss": "^1.0.6",
+    "gulp-uglyfly": "^1.4.2",
+    "jade": "^1.11.0",
+    "mongodb": "^2.2.25",
+    "mongoose": "^4.9.1"
+  }
+}
