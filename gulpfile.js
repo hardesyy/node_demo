@@ -2,6 +2,7 @@ var gulp = require('gulp');
 //var concatCss = require('gulp-concat-css');
 var sass = require('gulp-sass')
 var uglifycss = require('gulp-uglifycss');
+var babel = require('gulp-babel');
 var csscomb = require('gulp-csscomb');
 var autoprefixer = require('gulp-autoprefixer');
 
@@ -37,6 +38,9 @@ gulp.task('style',function(){
 gulp.task('script',function(){
     gulp.src('master/scripts/*.js')
         //.pipe(concat('main.js'))
+        .pipe(babel({
+            presets: ['es2015']
+        }))
         .pipe(uglyfly())
         .pipe(gulp.dest('public/js'))
 })

@@ -27,6 +27,8 @@ coverage
 build/Release
 
 # Dependency directories
+.idea
+db
 node_modules
 jspm_packages
 

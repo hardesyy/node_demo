@@ -1,22 +1,27 @@
 <% include layout.ejs %>
-<link rel="stylesheet" href="/public/css/login.css">
-<div class="row">
-    <div class="center-block register-box">
-        <div class="panel panel-primary">
-            <div class="panel-heading"><h4>系统管理员登录</h4></div>
-            <form class="form">
-                <div class="form-group">
-                    <div class="input-group">
-                        <input type="text" class="form-control" id="username" name="username" placeholder="用户名">
-                        <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
-                    </div>
-                    <div class="input-group">
-                        <input type="password" name="password" class="form-control" id="password" placeholder="密码">
-                        <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
-                    </div>
-                </div>
-                <button type="submit" class="btn btn-primary">Transfer cash</button>
-            </form>
+
+
+</head>
+<body class="bg-black">
+
+<div class="form-box">
+    <div class="header">管理员登录</div>
+    <form  id="login-box">
+        <div class="body bg-gray">
+            <div class="form-group">
+                <input type="text" id="username" name="username" class="form-control" placeholder="用户名"/>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" name="password" class="form-control" placeholder="密码"/>
+            </div>
+            <div class="form-group">
+                <p id="notice"></p>
+            </div>
         </div>
-    </div>
+        <div class="footer">
+            <button type="submit" class="btn bg-olive btn-block">马上登录</button>
+        </div>
+    </form>
 </div>
+<script src="/public/js/layer.js"></script>
+<script src="/public/js/login.js"></script>

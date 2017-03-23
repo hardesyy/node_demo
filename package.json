@@ -35,5 +35,9 @@
     "jade": "^1.11.0",
     "mongodb": "^2.2.25",
     "mongoose": "^4.9.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.0",
+    "gulp-babel": "^6.1.2"
   }
 }
